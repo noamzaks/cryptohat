@@ -24,6 +24,18 @@ cryptohat seed challenges/web/cloud/megalomaniac-1/13408.py --seed 1574
 
 A useful client for connecting to interactive challenges is available by using `from cryptohat.client import Client`. You can also use the shorthands `LocalClient` and `RemoteClient` classes for challenges running locally or on the CryptoHack server accordingly.
 
+### Listing and downloading challenges
+
+The `list` command lets you list the categories or the challenges within these categories and the `download` command lets you download all files of a specific challenge.
+
+Example usage:
+
+```sh
+cryptohat list
+cryptohat list --category web
+cryptohat download web/cloud/megalomaniac-2
+```
+
 ## Getting Started
 
 -   Clone this repository (`git clone https://github.com/noamzaks/cryptohat.git`).
