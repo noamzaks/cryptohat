@@ -1,0 +1,22 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+
+# actual challenges
+/challenges
+
+# local interactive challenge server logs
+/logs
+
+# since we want to support both Sage Math virtualenv's and normal Python virtualenv's, we don't want to lock these
+# although this could potentially cause version compatibility issues
+.python-version
+requirements.lock
+requirements-dev.lock
